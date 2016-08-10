@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		*{margin: 0;padding: 0;}
+			div{ width: 50px;height: 50px;cursor: pointer;background: rgba(0,0,0,.4);position: relative;margin: 100px auto;border-radius: 50%;}
+			.line{ width: 50px;height: 50px;position: absolute;left: 0;top: 0;}
+			.line1 span{width: 16px;height: 3px;position: absolute;margin-top: -2px;background: red;top: 33px;}
+			.line1 span:nth-last-of-type(1){left: 50%;transform-origin: left bottom;transform: rotate(-45deg);width: 14px;}
+			.line1 span:nth-last-of-type(2){left:50%;transform-origin: left bottom;transform: rotate(-135deg);}
+			/*.line2{	width: 12px;height: 4px;position: absolute;margin-top: -2px;background: red;top: 50%;};*/
+		</style>
+	</head>
+	<body>
+		<div class="scroll-circle effDSR">
+	        <figure class="line line1">
+	        	<span></span>
+	        	<span></span>
+	        </figure>
+	        <figure class="line line2">
+	        	<span></span>
+	        	<span></span>
+	        </figure>
+      	</div>
+		<script>
+			
+		</script>
+	</body>
+</html>
